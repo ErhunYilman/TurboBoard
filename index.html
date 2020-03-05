@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TurboBoard </title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="contentWrapper">
+        <div class="container-fluid">
+         
+          <div class="main">
+            <div class="row dataRow mt-4">
+              <div class="col-md-6">
+                <div class="headsUpDisplay display1">
+                  <div class="details">
+                    <h3>Current Speed</h3>
+                    <h4>305 km/u</h4>
+                  </div>
+                  <div id="headsUpData1"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="headsUpDisplay display1">
+                  <div class="details">
+                    <h3>Engine RPM</h3>
+                    <h4>1000x</h4>
+                  </div>
+                  <div id="headsUpData2"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row dataRow mt-4">
+              <div class="col-md-6">
+                <div class="headsUpDisplay display1">
+                  
+                  <div id="headsUpData3"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="headsUpDisplay display1">
+                  <div id="headsUpData4"></div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="row mt-4">
+              <div class="col-md-12">
+                <div class="headsUpDisplay shadow mt-4">
+                  <div id="consumptionBar"></div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="headsUpDisplay shadow mt-4">
+                  <div id="vehicleData"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
